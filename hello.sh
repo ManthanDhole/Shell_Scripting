@@ -1,3 +1,4 @@
+# '#!' is called as HashBang / shBang which denotes the location of the Bash script executor in the OS 
 #! /usr/bin/bash
 echo "Hello World"
 echo $BASH  #Upper case for System Variables
