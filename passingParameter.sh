@@ -3,10 +3,10 @@
 
 # The parameters passed to a script are stored in the default variables which are numerically denoted in the incremental order
 # as $1, $2, $3.... $n
-# echo Parameters = $1 $2
+echo Parameters = $1 $2
 
 # The 0th element is the name of the script itself
-# echo Parameters = $0 $1 $2
+echo Parameters = $0 $1 $2
 
 # Passing arguments to an array
 args=("$@") # $@ denotes that the declared variable is an array
